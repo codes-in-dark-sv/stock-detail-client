@@ -1,0 +1,23 @@
+   
+.tableHead {
+      min-width:400;
+      width:"1500px"
+}
+.root {
+      width: '100%';
+}
+.boxDisplay{
+      height:170;
+}          
+.container{
+      max-height: 400;
+      min-height: 400;
+}
+.btnStyle{
+      border-radius:"5px";
+      color:"white";
+      text-transform:"none"
+}
+.searchStyle{
+      background-color:"#fafafa"
+}
