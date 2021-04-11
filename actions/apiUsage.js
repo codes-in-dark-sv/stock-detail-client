@@ -14,7 +14,9 @@ export const requestStockList = () =>{
                   "x-rapidapi-host": process.env.NEXT_APP_PUBLIC_RAPID_API_HOST,
                   "useQueryString": true
             }).then((response) => {
-                  return response.body.finance.result
+                  console.log("Running inside ")
+            console.log(response.body)
+            return response.body.finance.result
             }).catch((err)=>{
                   return []  
             })
