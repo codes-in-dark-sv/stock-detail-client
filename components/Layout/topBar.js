@@ -8,7 +8,7 @@ export const TopBar = () =>{
       <AppBar position="fixed">
             <Toolbar>
                   <Typography variant="h6">
-                        Quikie Apps
+                        Demo App
                   </Typography>
             </Toolbar>
       </AppBar>            
